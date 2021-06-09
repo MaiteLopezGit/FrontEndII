@@ -8,6 +8,9 @@
 
 body {
   background-color: rgb(219, 219, 219);
+  /*No es buena practica agregar esto en el body, es solo
+  para ver un cambio menos brusco*/
+  transition: 200ms all linear;
 }
 
 h1 {
